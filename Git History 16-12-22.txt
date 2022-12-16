@@ -14,3 +14,4 @@ $ history
    22  git checkout -b first-trial-branch - Step 10 - Creating a new branch and change to that branch
    27  git checkout main - Step 11 - Change from first-trial-branch to main
    33  history - To print all previous commands
+       git diff - Compare codes in different branches
