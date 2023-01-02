@@ -6,3 +6,7 @@ def sum(a, b):
 
 '''Hellojdvs2'''
 '''Hii'''
+
+def multiplication(a,b):
+    return a*b
+
