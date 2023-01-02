@@ -14,4 +14,7 @@ $ history
    22  git checkout -b first-trial-branch - Step 10 - Creating a new branch and change to that branch
    27  git checkout main - Step 11 - Change from first-trial-branch to main
    33  history - To print all previous commands
-       git diff - Compare codes in different branches
+       git diff [name of branch] - Compare codes in different branches
+       git merge [name of branch] - Merge branch to main 
+       git branch -D [name of branch] - Deletes a branch locally, cannot delete a branch that we are currently in, use "D" when branch is not merged or commited
+       git push origin --delete [name of branch] - Deletes branch remotely i.e, in Github
